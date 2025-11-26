@@ -1,0 +1,46 @@
+# Unity project essentials
+# Ignore cache and generated folders (safe to exclude from VCS)
+**/[Ll]ibrary/
+**/[Tt]emp/
+**/[Oo]bj/
+**/[Bb]uild/
+**/[Bb]uilds/
+**/[Ll]ogs/
+**/[Mm]emory[Cc]aptures/
+**/[Ss]cript[Aa]ssemblies/
+**/[Ss]hader[Cc]ache/
+**/Artifacts/
+**/DerivedDataCache/
+**/Bee/
+**/Burst/
+**/BurstCache/
+**/TempArtifacts/
+
+# IDE / editor generated
+.vscode/
+.idea/
+*.suo
+*.user
+*.userprefs
+*.csproj
+*.unityproj
+*.sln
+*.tmp
+*.pidb
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Unity asset store tools (optional)
+Assets/AssetStoreTools*
+
+# Keep these tracked (DO NOT ignore)
+#!/Packages/
+#!/ProjectSettings/
+#!/Assets/
